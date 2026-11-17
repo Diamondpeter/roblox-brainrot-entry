@@ -1,0 +1,3096 @@
+{
+  "name": "brainrot-bazaar-noodle-nebula",
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Ground": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Size": [
+            280,
+            2,
+            280
+          ],
+          "Position": [
+            0,
+            -1,
+            0
+          ],
+          "Color": [
+            0.3764705882352941,
+            0.7058823529411765,
+            0.35294117647058826
+          ],
+          "Material": "Grass"
+        }
+      },
+      "PlazaFloor": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Size": [
+            76,
+            1,
+            76
+          ],
+          "Position": [
+            0,
+            0.5,
+            0
+          ],
+          "Color": [
+            0.9411764705882353,
+            0.8627450980392157,
+            0.6666666666666666
+          ],
+          "Material": "Slate"
+        }
+      },
+      "Plaza": {
+        "$className": "Folder",
+        "PlazaFloor2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              60,
+              1.2,
+              60
+            ],
+            "Position": [
+              0,
+              0.6,
+              0
+            ],
+            "Color": [
+              1.0,
+              0.7843137254901961,
+              0.47058823529411764
+            ]
+          }
+        },
+        "GachaPad": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              10,
+              0.6,
+              10
+            ],
+            "Position": [
+              16,
+              1.2,
+              -16
+            ],
+            "Color": [
+              1.0,
+              0.47058823529411764,
+              0.23529411764705882
+            ],
+            "Material": "Neon"
+          }
+        },
+        "NoodlePot": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              7,
+              5,
+              7
+            ],
+            "Position": [
+              16,
+              4,
+              -16
+            ],
+            "Color": [
+              0.27450980392156865,
+              0.27450980392156865,
+              0.3137254901960784
+            ],
+            "Material": "Metal"
+          }
+        },
+        "PotLid": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              8,
+              0.8,
+              8
+            ],
+            "Position": [
+              16,
+              6.8,
+              -16
+            ],
+            "Color": [
+              1.0,
+              0.7450980392156863,
+              0.23529411764705882
+            ],
+            "Material": "Metal"
+          }
+        },
+        "ShopStallRoof": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              20,
+              1,
+              12
+            ],
+            "Position": [
+              -18,
+              7,
+              14
+            ],
+            "Color": [
+              1.0,
+              0.3607843137254902,
+              0.803921568627451
+            ]
+          }
+        },
+        "ShopStallPostL": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1,
+              7,
+              1
+            ],
+            "Position": [
+              -27,
+              3.5,
+              14
+            ],
+            "Color": [
+              0.47058823529411764,
+              0.3137254901960784,
+              0.19607843137254902
+            ],
+            "Material": "Wood"
+          }
+        },
+        "ShopStallPostR": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1,
+              7,
+              1
+            ],
+            "Position": [
+              -9,
+              3.5,
+              14
+            ],
+            "Color": [
+              0.47058823529411764,
+              0.3137254901960784,
+              0.19607843137254902
+            ],
+            "Material": "Wood"
+          }
+        },
+        "ShopSign": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              18,
+              3,
+              0.5
+            ],
+            "Position": [
+              -18,
+              5.4,
+              8.2
+            ],
+            "Color": [
+              0.13725490196078433,
+              0.11764705882352941,
+              0.21568627450980393
+            ]
+          }
+        }
+      },
+      "Conveyor": {
+        "$className": "Folder",
+        "Belt": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              52,
+              1,
+              8
+            ],
+            "Position": [
+              0,
+              1.6,
+              0
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.19607843137254902,
+              0.23529411764705882
+            ],
+            "Material": "DiamondPlate"
+          }
+        },
+        "BeltStripe": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              52,
+              0.3,
+              1.5
+            ],
+            "Position": [
+              0,
+              2.2,
+              0
+            ],
+            "Color": [
+              1.0,
+              0.8627450980392157,
+              0.3137254901960784
+            ],
+            "Material": "Neon"
+          }
+        }
+      },
+      "WildMeadow": {
+        "$className": "Folder",
+        "MeadowGround": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              130,
+              1,
+              80
+            ],
+            "Position": [
+              0,
+              0.2,
+              80
+            ],
+            "Color": [
+              0.47058823529411764,
+              0.7843137254901961,
+              0.43137254901960786
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              -58,
+              3.5,
+              52
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              -58,
+              9,
+              52
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              -45,
+              3.5,
+              78
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              -45,
+              9,
+              78
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              -32,
+              3.5,
+              104
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              -32,
+              9,
+              104
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              -19,
+              3.5,
+              52
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              -19,
+              9,
+              52
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              -6,
+              3.5,
+              78
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              -6,
+              9,
+              78
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              7,
+              3.5,
+              104
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              7,
+              9,
+              104
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              20,
+              3.5,
+              52
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              20,
+              9,
+              52
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              33,
+              3.5,
+              78
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              33,
+              9,
+              78
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              46,
+              3.5,
+              104
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop9": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              46,
+              9,
+              104
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "TreeTrunk10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              6,
+              1.6
+            ],
+            "Position": [
+              59,
+              3.5,
+              52
+            ],
+            "Color": [
+              0.43137254901960786,
+              0.29411764705882354,
+              0.17647058823529413
+            ],
+            "Material": "Wood"
+          }
+        },
+        "TreeTop10": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              6,
+              6,
+              6
+            ],
+            "Position": [
+              59,
+              9,
+              52
+            ],
+            "Color": [
+              0.19607843137254902,
+              0.6274509803921569,
+              0.27450980392156865
+            ],
+            "Material": "Grass"
+          }
+        },
+        "Rock1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              3,
+              2,
+              3
+            ],
+            "Position": [
+              -50,
+              1,
+              105
+            ],
+            "Color": [
+              0.5882352941176471,
+              0.5882352941176471,
+              0.6078431372549019
+            ],
+            "Material": "Rock"
+          }
+        },
+        "Rock2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              4,
+              2,
+              3
+            ],
+            "Position": [
+              -30,
+              1,
+              60
+            ],
+            "Color": [
+              0.5882352941176471,
+              0.5882352941176471,
+              0.6078431372549019
+            ],
+            "Material": "Rock"
+          }
+        },
+        "Rock3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              5,
+              2,
+              3
+            ],
+            "Position": [
+              -10,
+              1,
+              105
+            ],
+            "Color": [
+              0.5882352941176471,
+              0.5882352941176471,
+              0.6078431372549019
+            ],
+            "Material": "Rock"
+          }
+        },
+        "Rock4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              3,
+              2,
+              3
+            ],
+            "Position": [
+              10,
+              1,
+              60
+            ],
+            "Color": [
+              0.5882352941176471,
+              0.5882352941176471,
+              0.6078431372549019
+            ],
+            "Material": "Rock"
+          }
+        },
+        "Rock5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              4,
+              2,
+              3
+            ],
+            "Position": [
+              30,
+              1,
+              105
+            ],
+            "Color": [
+              0.5882352941176471,
+              0.5882352941176471,
+              0.6078431372549019
+            ],
+            "Material": "Rock"
+          }
+        },
+        "Rock6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              5,
+              2,
+              3
+            ],
+            "Position": [
+              50,
+              1,
+              60
+            ],
+            "Color": [
+              0.5882352941176471,
+              0.5882352941176471,
+              0.6078431372549019
+            ],
+            "Material": "Rock"
+          }
+        },
+        "LampPost1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              -56,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              -56,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              -40,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              -40,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              -24,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              -24,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              -8,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              -8,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              8,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow5": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              8,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              24,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow6": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              24,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              40,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow7": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              40,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        },
+        "LampPost8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              0.6,
+              7,
+              0.6
+            ],
+            "Position": [
+              56,
+              3.5,
+              44
+            ],
+            "Color": [
+              0.23529411764705882,
+              0.23529411764705882,
+              0.27450980392156865
+            ],
+            "Material": "Metal"
+          }
+        },
+        "LampGlow8": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Size": [
+              1.6,
+              1.6,
+              1.6
+            ],
+            "Position": [
+              56,
+              7.4,
+              44
+            ],
+            "Color": [
+              1.0,
+              0.9019607843137255,
+              0.5882352941176471
+            ],
+            "Material": "Neon"
+          }
+        }
+      },
+      "Bases": {
+        "$className": "Folder",
+        "Base1": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                86.0,
+                0.25,
+                0.0
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                86.0,
+                4,
+                10.5
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                86.0,
+                8.4,
+                10.5
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                86.0,
+                0.6,
+                -9.0
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  78.0,
+                  1,
+                  0.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  86.0,
+                  1,
+                  0.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  94.0,
+                  1,
+                  0.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  78.0,
+                  1,
+                  7.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  86.0,
+                  1,
+                  7.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  94.0,
+                  1,
+                  7.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base2": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                60.81118318204309,
+                0.25,
+                60.81118318204308
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                60.81118318204309,
+                4,
+                71.31118318204308
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                60.81118318204309,
+                8.4,
+                71.31118318204308
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                60.81118318204309,
+                0.6,
+                51.81118318204308
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  52.81118318204309,
+                  1,
+                  61.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  60.81118318204309,
+                  1,
+                  61.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  68.8111831820431,
+                  1,
+                  61.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  52.81118318204309,
+                  1,
+                  68.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  60.81118318204309,
+                  1,
+                  68.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  68.8111831820431,
+                  1,
+                  68.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base3": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                5.2659812363336185e-15,
+                0.25,
+                86.0
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                5.2659812363336185e-15,
+                4,
+                96.5
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                5.2659812363336185e-15,
+                8.4,
+                96.5
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                5.2659812363336185e-15,
+                0.6,
+                77.0
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -7.999999999999995,
+                  1,
+                  86.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  5.2659812363336185e-15,
+                  1,
+                  86.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  8.000000000000005,
+                  1,
+                  86.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -7.999999999999995,
+                  1,
+                  93.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  5.2659812363336185e-15,
+                  1,
+                  93.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  8.000000000000005,
+                  1,
+                  93.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base4": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                -60.81118318204308,
+                0.25,
+                60.81118318204309
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                -60.81118318204308,
+                4,
+                71.3111831820431
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                -60.81118318204308,
+                8.4,
+                71.3111831820431
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                -60.81118318204308,
+                0.6,
+                51.81118318204309
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -68.81118318204308,
+                  1,
+                  61.31118318204309
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -60.81118318204308,
+                  1,
+                  61.31118318204309
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -52.81118318204308,
+                  1,
+                  61.31118318204309
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -68.81118318204308,
+                  1,
+                  68.3111831820431
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -60.81118318204308,
+                  1,
+                  68.3111831820431
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -52.81118318204308,
+                  1,
+                  68.3111831820431
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base5": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                -86.0,
+                0.25,
+                1.0531962472667237e-14
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                -86.0,
+                4,
+                10.50000000000001
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                -86.0,
+                8.4,
+                10.50000000000001
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                -86.0,
+                0.6,
+                -8.99999999999999
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -94.0,
+                  1,
+                  0.5000000000000107
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -86.0,
+                  1,
+                  0.5000000000000107
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -78.0,
+                  1,
+                  0.5000000000000107
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -94.0,
+                  1,
+                  7.500000000000011
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -86.0,
+                  1,
+                  7.500000000000011
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -78.0,
+                  1,
+                  7.500000000000011
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base6": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                -60.8111831820431,
+                0.25,
+                -60.81118318204308
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                -60.8111831820431,
+                4,
+                -50.31118318204308
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                -60.8111831820431,
+                8.4,
+                -50.31118318204308
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                -60.8111831820431,
+                0.6,
+                -69.81118318204308
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -68.8111831820431,
+                  1,
+                  -60.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -60.8111831820431,
+                  1,
+                  -60.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -52.8111831820431,
+                  1,
+                  -60.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -68.8111831820431,
+                  1,
+                  -53.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -60.8111831820431,
+                  1,
+                  -53.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -52.8111831820431,
+                  1,
+                  -53.31118318204308
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base7": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                -1.5797943709000856e-14,
+                0.25,
+                -86.0
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                -1.5797943709000856e-14,
+                4,
+                -75.5
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                -1.5797943709000856e-14,
+                8.4,
+                -75.5
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                -1.5797943709000856e-14,
+                0.6,
+                -95.0
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -8.000000000000016,
+                  1,
+                  -85.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -1.5797943709000856e-14,
+                  1,
+                  -85.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  7.999999999999984,
+                  1,
+                  -85.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -8.000000000000016,
+                  1,
+                  -78.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  -1.5797943709000856e-14,
+                  1,
+                  -78.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  7.999999999999984,
+                  1,
+                  -78.5
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        },
+        "Base8": {
+          "$className": "Folder",
+          "$properties": {},
+          "Floor": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                0.5,
+                22
+              ],
+              "Position": [
+                60.811183182043074,
+                0.25,
+                -60.8111831820431
+              ],
+              "Color": [
+                0.34509803921568627,
+                0.27450980392156865,
+                0.5098039215686274
+              ],
+              "Material": "Slate"
+            }
+          },
+          "BackWall": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                30,
+                8,
+                1
+              ],
+              "Position": [
+                60.811183182043074,
+                4,
+                -50.3111831820431
+              ],
+              "Color": [
+                0.23529411764705882,
+                0.18823529411764706,
+                0.3764705882352941
+              ]
+            }
+          },
+          "RoofTrim": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                31,
+                0.8,
+                2
+              ],
+              "Position": [
+                60.811183182043074,
+                8.4,
+                -50.3111831820431
+              ],
+              "Color": [
+                1.0,
+                0.3607843137254902,
+                0.803921568627451
+              ],
+              "Material": "Neon"
+            }
+          },
+          "LockPad": {
+            "$className": "Part",
+            "$properties": {
+              "Anchored": true,
+              "Size": [
+                6,
+                0.4,
+                4
+              ],
+              "Position": [
+                60.811183182043074,
+                0.6,
+                -69.8111831820431
+              ],
+              "Color": [
+                0.25098039215686274,
+                0.7843137254901961,
+                1.0
+              ],
+              "Material": "Neon"
+            }
+          },
+          "Pedestals": {
+            "$className": "Folder",
+            "Pedestal1": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  52.811183182043074,
+                  1,
+                  -60.311183182043095
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal2": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  60.811183182043074,
+                  1,
+                  -60.311183182043095
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal3": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  68.81118318204307,
+                  1,
+                  -60.311183182043095
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal4": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  52.811183182043074,
+                  1,
+                  -53.3111831820431
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal5": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  60.811183182043074,
+                  1,
+                  -53.3111831820431
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            },
+            "Pedestal6": {
+              "$className": "Part",
+              "$properties": {
+                "Anchored": true,
+                "Size": [
+                  3.4,
+                  2,
+                  3.4
+                ],
+                "Position": [
+                  68.81118318204307,
+                  1,
+                  -53.3111831820431
+                ],
+                "Color": [
+                  0.9019607843137255,
+                  0.8823529411764706,
+                  0.9607843137254902
+                ],
+                "Material": "Marble"
+              }
+            }
+          }
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Size": [
+            10,
+            1,
+            10
+          ],
+          "Position": [
+            0,
+            1.2,
+            26
+          ],
+          "Color": [
+            0.25098039215686274,
+            0.7843137254901961,
+            1.0
+          ],
+          "Neutral": true
+        }
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.47058823529411764,
+          0.43137254901960786,
+          0.5490196078431373
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel",
+        "ClockTime": 14.5
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}

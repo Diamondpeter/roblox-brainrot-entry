@@ -1,0 +1,1 @@
+{"steps":[{"screenshot":"1-cover.png"},{"screenshot":"2-base.png","wait_ms":1500},{"screenshot":"3-shop.png","wait_ms":1500},{"screenshot":"4-tsunami.png","wait_ms":1500}],"tour":1}
